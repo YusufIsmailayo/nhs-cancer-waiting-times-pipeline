@@ -1,0 +1,19 @@
+# Raw NHS data — public source, but too large to commit
+data/raw/
+
+# Pipeline Parquet outputs — regenerable by running the notebooks
+data/bronze/
+data/silver/
+data/gold/
+
+# Keep the output charts and chart-ready CSVs
+!outputs/
+
+# Python / Jupyter cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Stray empty folder from earlier
+output/

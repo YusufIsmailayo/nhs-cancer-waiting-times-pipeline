@@ -1,0 +1,14 @@
+Cancer_Type,total_patients,total_within,total_breached,compliance_pct
+Gynaecological,22184.0,12278.0,9906.0,55.3
+Head & Neck,18739.0,10354.0,8385.0,55.3
+Lower Gastrointestinal,50358.0,28133.0,22225.0,55.9
+Lung,51131.0,30356.0,20775.0,59.4
+Urological - Other (a),28973.0,17250.0,11723.0,59.5
+Urological - Prostate,79177.0,48735.0,30442.0,61.6
+Upper Gastrointestinal - Oesophagus & Stomach,15231.0,9788.0,5443.0,64.3
+Haematological - Lymphoma,15591.0,10366.0,5225.0,66.5
+Breast,74769.0,53569.0,21200.0,71.6
+Upper Gastrointestinal - Hepatobiliary,19246.0,14318.0,4928.0,74.4
+Other (a),13733.0,10575.0,3158.0,77.0
+Skin,82910.0,69922.0,12988.0,84.3
+Haematological - Other (a),12874.0,11305.0,1569.0,87.8
