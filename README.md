@@ -39,8 +39,7 @@ This pipeline produced a three-part written series, each built on a different Go
 
 1. **[The Cancer Standard Nobody Is Hitting — And the Hospital Lottery Behind It](https://medium.com/@yusufismail_91982/the-cancer-standard-nobody-is-hitting-and-the-hospital-lottery-behind-it-e075df3ad626)** — your chance of timely treatment depends on which trust your referral lands in.
 2. **[It Depends What Kind of Cancer You Have](https://medium.com/@yusufismail_91982/it-dependswhat-kind-of-cancer-you-have-03a2c8b97fd5)** — it also depends on what kind of cancer you have, and for some, "late" means catastrophically late.
-3. **The Cancer Route Built for Urgency Is the Slowest One** — it depends on how you were referred; the route built for urgency is the slowest of all. *(Publishing shortly.)*
-
+3. **[The Cancer Route Built for Urgency Is the Slowest One](https://medium.com/@yusufismail_91982/the-cancer-route-built-for-urgency-is-the-slowest-one-4ec929091da4)** — it depends on how you were referred; the route built for urgency is the slowest of all.
 ---
 
 ## Architecture
@@ -131,7 +130,7 @@ This pipeline uses the Monthly Combined Provider and Commissioner CSV files for 
 
 - **Project 1:** [NHS Outpatient Attendance Pipeline — 226 million records](https://github.com/YusufIsmailayo/nhs-patient-flow-data-pipeline)
 - **Project 2:** [NHS RTT Incomplete Pathways Pipeline — 14 million pathways](https://github.com/YusufIsmailayo/nhs-rtt-incomplete-pathways-pipeline)
-- **Project 3:** NHS A&E Waiting Times Pipeline
+- **Project 3:** [NHS A&E Waiting Times Pipeline](https://github.com/YusufIsmailayo/nhs-ae-waiting-times)
 
 ---
 
