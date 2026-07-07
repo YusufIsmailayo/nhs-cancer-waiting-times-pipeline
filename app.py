@@ -13,8 +13,10 @@ Yusuf Ismail | NHS Data Engineering Portfolio | Project 4
 from __future__ import annotations
 
 import json
+import re
 import sys
 import pathlib
+from datetime import datetime
 
 import streamlit as st
 
@@ -54,11 +56,25 @@ data_month = answers.get("data_month", "")
 source_url = answers.get("source_url", "")
 
 
-def latest_volume(code: str):
-    """I read the trust's most recent monthly patient count from the Gold table — so I can show
-    how many people a percentage is based on, and caution when the numbers are too small."""
+def _strip_source(text: str) -> str:
+    """I remove the stamped 'Source:' line from the answer for display — the app shows its own
+    single source caption. The line stays in the saved answer so a copied answer keeps its
+    citation; I just don't show it three times on one screen."""
+    return re.sub(r"\n+\s*source:.*$", "", text, flags=re.IGNORECASE | re.DOTALL).strip()
+
+
+def latest_row(code: str):
     rows = df[df["org_code"] == code].sort_values("period_date")
-    return float(rows.iloc[-1]["total_patients"]) if not rows.empty else None
+    return None if rows.empty else rows.iloc[-1]
+
+
+def trust_month_label(code: str) -> str:
+    """The trust's OWN latest reported month, in words — e.g. 'October 2024'. This is the honest
+    date for the source line, since some trusts stopped reporting before the dataset's latest month."""
+    row = latest_row(code)
+    if row is None:
+        return data_month
+    return datetime.strptime(str(row["period_month"]), "%Y-%m").strftime("%B %Y")
 
 
 def show_answer(code: str, personal: bool) -> None:
@@ -68,13 +84,13 @@ def show_answer(code: str, personal: bool) -> None:
         st.warning("I don't have an answer for that trust this month.")
         return
     st.subheader(rec["org_name"])
-    st.write(rec["personal"] if personal else rec["general"])
+    st.write(_strip_source(rec["personal"] if personal else rec["general"]))
 
     # Volume context — how many patients the percentage is based on, read straight from the Gold
     # table (not the AI), with a caution for small numbers.
-    vol = latest_volume(code)
-    if vol is not None:
-        n = round(vol)
+    row = latest_row(code)
+    if row is not None:
+        n = round(float(row["total_patients"]))
         if n == 0:
             st.caption("No patients were recorded at this trust for this measure that month.")
         else:
@@ -85,12 +101,15 @@ def show_answer(code: str, personal: bool) -> None:
 
     other = "What about my own wait?" if not personal else "How is the trust performing overall?"
     with st.expander(other):
-        st.write(rec["general"] if personal else rec["personal"])
-    st.caption(f"[Source: NHS England Cancer Waiting Times]({source_url}) · data to {data_month}")
+        st.write(_strip_source(rec["general"] if personal else rec["personal"]))
+
+    # ONE source line per answer, carrying THIS trust's data month.
+    st.caption(f"[Source: NHS England Cancer Waiting Times]({source_url}) "
+               f"· data to {trust_month_label(code)}")
 
 
 st.title("How is my hospital doing on cancer waits?")
-st.caption(f"England NHS trusts · data to {data_month}")
+st.caption(f"England NHS trusts · latest data {data_month}")
 st.write(
     "The NHS aims for 85% of people to start cancer treatment within **62 days of an urgent "
     "referral**. This tool shows how any English NHS trust is doing against that standard — "
