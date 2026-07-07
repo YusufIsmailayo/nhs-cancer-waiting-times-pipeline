@@ -19,7 +19,7 @@ import pathlib
 import streamlit as st
 
 # set_page_config must be the FIRST Streamlit command in the script — even a cached loader
-# counts as one — so it lives here, directly after the import. (Yusuf's fix.)
+# counts as one — so it lives here, directly after the import.
 st.set_page_config(page_title="NHS Cancer Waiting Times", page_icon="🩺")
 
 # My python modules live in notebooks/; I add that folder to the path so the app reuses the exact
@@ -31,6 +31,8 @@ import cwt_query as q          # noqa: E402
 import cwt_serve as serve      # noqa: E402
 
 DATA = HERE / "data" / "gold"
+GITHUB_URL = "https://github.com/YusufIsmailayo/nhs-cancer-waiting-times-pipeline"
+LOW_VOLUME = 25   # below this many patients in a month, the percentage is noisy — I flag it.
 
 EXAMPLES = [
     "How is Shrewsbury and Telford doing?",
@@ -52,14 +54,35 @@ data_month = answers.get("data_month", "")
 source_url = answers.get("source_url", "")
 
 
+def latest_volume(code: str):
+    """I read the trust's most recent monthly patient count from the Gold table — so I can show
+    how many people a percentage is based on, and caution when the numbers are too small."""
+    rows = df[df["org_code"] == code].sort_values("period_date")
+    return float(rows.iloc[-1]["total_patients"]) if not rows.empty else None
+
+
 def show_answer(code: str, personal: bool) -> None:
-    """I show one trust's precomputed answer, with the other angle a click away."""
+    """I show one trust's precomputed answer, with volume context and the other angle a click away."""
     rec = answers["trusts"].get(code)
     if not rec:
         st.warning("I don't have an answer for that trust this month.")
         return
     st.subheader(rec["org_name"])
     st.write(rec["personal"] if personal else rec["general"])
+
+    # Volume context — how many patients the percentage is based on, read straight from the Gold
+    # table (not the AI), with a caution for small numbers.
+    vol = latest_volume(code)
+    if vol is not None:
+        n = round(vol)
+        if n == 0:
+            st.caption("No patients were recorded at this trust for this measure that month.")
+        else:
+            st.caption(f"Based on {n:,} patients treated that month.")
+            if n < LOW_VOLUME:
+                st.warning("These are small patient numbers, so a single case can move the "
+                           "percentage a lot — read it with caution.")
+
     other = "What about my own wait?" if not personal else "How is the trust performing overall?"
     with st.expander(other):
         st.write(rec["general"] if personal else rec["personal"])
@@ -92,8 +115,8 @@ if question:
         show_answer(hits[0]["org_code"], personal)
 
     elif len(hits) > 1:
-        st.info(f"More than one NHS trust matches your question — "
-                f"{len(hits)} possibilities. Which did you mean?")
+        st.info(f"More than one NHS trust matches your question — {len(hits)} possibilities. "
+                f"Which did you mean?")
         names = {answers["trusts"].get(h["org_code"], {}).get("org_name", h["org_name"]):
                  h["org_code"] for h in hits}
         choice = st.radio("Trust", list(names), index=None)
@@ -101,7 +124,13 @@ if question:
             show_answer(names[choice], personal)
 
     else:
-        st.info("I couldn't find that trust from your question — pick one from the list:")
+        st.info(
+            "I couldn't match that to an English NHS trust. Two things that usually help:\n\n"
+            "- This tool covers **England only** — Wales, Scotland and Northern Ireland publish "
+            "their cancer figures separately, so a town outside England won't appear here.\n"
+            "- Try a **hospital or trust name** (for example \"Leeds\" or \"Shrewsbury and "
+            "Telford\") rather than just a town — or pick one from the full list below."
+        )
         all_names = {rec["org_name"]: code
                      for code, rec in sorted(answers["trusts"].items(),
                                              key=lambda kv: kv[1]["org_name"])}
@@ -111,8 +140,13 @@ if question:
 
 with st.expander("About this tool"):
     st.write(
-        "These figures are official NHS England statistics, refreshed monthly. The tool reports "
-        "how a trust performed against the 62-day cancer standard — it cannot predict how long "
-        "any individual will wait, because the data does not measure that. Each answer is written "
-        "by an AI model from figures computed in advance; the AI never invents a number."
+        "These figures are official NHS England statistics for the combined 62-day cancer "
+        "standard, covering England's NHS trusts. Every month the answers are generated from "
+        "validated trust-level data and automatically checked against the source figures before "
+        "publication — so the numbers you read always reconcile with the official data.\n\n"
+        "The tool reports how a trust performed; it cannot predict how long any individual will "
+        "wait, because the data does not measure that. Each answer is written by an AI model from "
+        "figures computed in advance — the AI never invents or changes a number."
     )
+
+st.link_button("View the project on GitHub", GITHUB_URL)
