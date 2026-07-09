@@ -229,6 +229,7 @@ Make it easy to read:
 
 Hard rules:
 - Every figure you state must already appear in the findings. Do not introduce, recalculate, re-round, combine, or estimate any number that is not in the findings.
+- When the findings name a month (for example "October 2023"), keep that name. Do not restate a named month as a relative time such as "a year earlier", "a year ago", "last year", or "two years ago" — a relative age you work out yourself can be wrong.
 - Add nothing beyond the findings: no extra facts, no explanation of why waits vary, no reassurance, and no advice about what the person should do or who they should contact. State only what the findings say.
 - Do not add evaluative or intensifying words that are not in the findings — for example "significantly", "dramatically", "sharply", "steadily", "worryingly", "thankfully".
 - Do not frame the figures as good or bad news (no "the good news is", "unfortunately", "sadly"). State them plainly and let them speak.

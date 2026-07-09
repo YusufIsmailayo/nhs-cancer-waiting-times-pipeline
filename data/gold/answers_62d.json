@@ -1,6 +1,6 @@
 {
   "data_month": "2025-09",
-  "generated_at": "2026-07-07T11:40:23+00:00",
+  "generated_at": "2026-07-09T20:38:01+00:00",
   "source_url": "https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/",
   "trusts": {
     "AQK": {
@@ -150,8 +150,8 @@
     },
     "R1H": {
       "org_name": "Barts Health NHS Trust",
-      "general": "Barts Health NHS Trust is performing above the England-wide figure but below the standard itself. About three-quarters of patients (77.1%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 — that's around 190 out of 246 patients. The 62-day standard asks for 85% of patients to be treated within that timeframe, so the trust is currently falling short of that target. On the positive side, this is the trust's best performance in the last two years, up from 52.3% a year before.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual situation. What I can tell you is Barts Health NHS Trust's recent record: in September 2025, about three-quarters of patients (77.1%) began their cancer treatment within 62 days of an urgent referral for suspected cancer.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Barts Health NHS Trust is performing reasonably well but with room for improvement. About three-quarters of patients (77.1%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. This is above the England-wide figure of 68% that month, though it falls short of the 85% standard the NHS aims for. The trust has made good progress — the figure has risen from 52.3% in October 2023 and is now at its highest point over the past 24 months.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case. What I can tell you is how Barts Health NHS Trust has been performing: in September 2025, about three-quarters of patients (77.1%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's above the England-wide figure of 68% that month, though it's below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "R1K": {
       "org_name": "London North West University Healthcare NHS Trust",
@@ -215,8 +215,8 @@
     },
     "RBD": {
       "org_name": "Dorset County Hospital NHS Foundation Trust",
-      "general": "In September 2025, about two in three people (66.9%) at Dorset County Hospital started their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, and slightly below England's figure of 68% that month. The trust's performance has fallen from 73.8% a year earlier, in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is how Dorset County Hospital has been performing: about two in three people (66.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's slightly below the England-wide figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about two in three people at Dorset County Hospital NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer (66.9%). This is below the 85% standard that the NHS aims for, and also slightly below England's 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many individual factors. What I can tell you is that at Dorset County Hospital NHS Foundation Trust, about two in three people (66.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. This is slightly below the England-wide figure of 68% that month, and below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RBK": {
       "org_name": "Walsall Healthcare NHS Trust",
@@ -235,8 +235,8 @@
     },
     "RBQ": {
       "org_name": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
-      "general": "Liverpool Heart and Chest Hospital NHS Foundation Trust treated about four in five patients within 62 days of an urgent referral for suspected cancer in September 2025 (83.6%). This is just below the 85% standard, but it's above England's 68% that month. The trust's performance has improved considerably from 55.6% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things specific to your situation. But here's what Liverpool Heart and Chest Hospital's recent record shows: about four in five patients (83.6%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's just below the 85% standard, and above the England-wide figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Liverpool Heart and Chest Hospital is treating about four in five patients within 62 days of an urgent referral for suspected cancer — that's 83.6% in September 2025. This is just below the 85% standard, but it's above the England-wide figure of 68% that month, and it's a strong improvement from 55.6% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. However, I can tell you what Liverpool Heart and Chest Hospital's recent record shows. In September 2025, about four in five people (83.6%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's just below the 85% standard, but above the England-wide figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RBS": {
       "org_name": "Alder Hey Children's NHS Foundation Trust",
@@ -305,8 +305,8 @@
     },
     "RDU": {
       "org_name": "Frimley Health NHS Foundation Trust",
-      "general": "In September 2025, about three-quarters of patients (76.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, though it is above England's figure of 68% that month. The trust's performance has improved from 65.8% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case. What I can tell you is Frimley Health's recent record: about three-quarters of people (76.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That means roughly one in four patients waited longer than 62 days.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about three-quarters of patients at Frimley Health NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer (76.5%). This is above the England-wide figure of 68% that month, though it falls short of the 85% standard. The trust's performance has improved from 65.8% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at Frimley Health NHS Foundation Trust, about three-quarters of patients (76.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "REF": {
       "org_name": "Royal Cornwall Hospitals NHS Trust",
@@ -355,8 +355,8 @@
     },
     "RGM": {
       "org_name": "Royal Papworth Hospital NHS Foundation Trust",
-      "general": "Royal Papworth Hospital is currently treating about four in ten of their cancer patients within 62 days of an urgent referral for suspected cancer (40.5%, in September 2025). This is below the national standard of 85%, and also below England's figure of 68% for that month. The trust's performance has improved from 26.9% a year earlier, but there is still a gap to close.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — that depends on your individual case and circumstances. What I can tell you is how Royal Papworth Hospital has been performing: in September 2025, about four in ten patients (40.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard the NHS aims for, and also below England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Royal Papworth Hospital treated about four in ten patients within 62 days of an urgent referral for suspected cancer in September 2025 — that's 40.5% of people. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has improved since October 2023, when it was 26.9%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at Royal Papworth Hospital, about four in ten patients began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 (40.5%). This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RGN": {
       "org_name": "North West Anglia NHS Foundation Trust",
@@ -385,8 +385,8 @@
     },
     "RH8": {
       "org_name": "Royal Devon University Healthcare NHS Foundation Trust",
-      "general": "Royal Devon University Healthcare NHS Foundation Trust treated about three-quarters of its cancer patients within 62 days of an urgent referral for suspected cancer in September 2025 (74.9%). This is below the 85% standard that the NHS aims for, though it is above England's 68% that month. The trust's performance has improved from 60.8% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What we can tell you is how Royal Devon University Healthcare NHS Foundation Trust has been performing: about three-quarters of patients (74.9%) started their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That means roughly one in four patients waited longer than that.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Royal Devon University Healthcare NHS Foundation Trust got about three-quarters of patients (74.9%) started on cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. This is above England's figure of 68% that month, but below the 85% standard. The trust's performance has improved from 60.8% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is how Royal Devon University Healthcare NHS Foundation Trust has been performing: in September 2025, about three-quarters of patients (74.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means around one in four patients waited longer than that.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RHA": {
       "org_name": "Nottinghamshire Healthcare NHS Foundation Trust",
@@ -415,8 +415,8 @@
     },
     "RJ1": {
       "org_name": "Guy's and St Thomas' NHS Foundation Trust",
-      "general": "Guy's and St Thomas' NHS Foundation Trust treated about half of its cancer patients within 62 days of an urgent referral for suspected cancer in September 2025 (50.3%). This is below the national 85% standard that the NHS aims for, and also below England's 68% that month. The trust's performance has improved from 43.7% a year earlier, in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — that depends on many things about your own situation. What I can tell you is how Guy's and St Thomas' has been performing. In September 2025, about half of patients began their cancer treatment within 62 days of an urgent referral for suspected cancer (50.3%). That's below the 85% standard the NHS aims for, and also below England's 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about half of patients at Guy's and St Thomas' began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 50.3% of the 288 patients treated that month. This is below the 85% standard the NHS aims for, and also below England's figure of 68% for the same month. The trust has improved since October 2023, when the figure was 43.7%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case. What I can tell you is how Guy's and St Thomas' NHS Foundation Trust has been doing overall.\n\nIn September 2025, about half of patients began their cancer treatment within 62 days of an urgent referral for suspected cancer (50.3%). This is below both the 85% standard that the NHS aims for and England's figure of 68% that month. The trust's performance has improved since October 2023, when it was 43.7%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RJ2": {
       "org_name": "Lewisham and Greenwich NHS Trust",
@@ -425,8 +425,8 @@
     },
     "RJ6": {
       "org_name": "Croydon Health Services NHS Trust",
-      "general": "In September 2025, about six in ten people at Croydon Health Services NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer (59.8%). This is below the 85% standard the NHS aims for, and also below England's 68% that month. The trust's performance has fallen from 76% a year ago and is now at its lowest point over the last two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at Croydon Health Services NHS Trust, about six in ten patients (59.8%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. This was below both the 85% standard and England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Croydon Health Services NHS Trust treated about six in ten patients within 62 days of an urgent referral for suspected cancer in September 2025 (59.8%). This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has declined over the past two years and is now at its lowest point in that time.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you will wait as an individual — but I can tell you how Croydon Health Services has been performing. In September 2025, about six in ten patients (59.8%) started their cancer treatment within 62 days of an urgent referral for suspected cancer. This was below both the 85% target that the NHS aims for and below England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RJ7": {
       "org_name": "St George's University Hospitals NHS Foundation Trust",
@@ -435,8 +435,8 @@
     },
     "RJC": {
       "org_name": "South Warwickshire NHS Foundation Trust",
-      "general": "South Warwickshire NHS Foundation Trust is not meeting the 62-day cancer standard. In September 2025, about half of patients (49.2%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below both the 85% standard that the NHS aims for and below England's figure of 68% for that month. The trust's performance has also been falling — it was 58.6% a year earlier and is now at its lowest point over the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case. What I can tell you is how South Warwickshire NHS Foundation Trust has been performing.\n\nIn September 2025, about half of patients (49.2%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's below both the 85% standard the NHS aims for and below England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about half of patients at South Warwickshire NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 49.2%. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has been falling over the past two years and is now at its lowest point in that time.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case that no figures can forecast.\n\nWhat I can tell you is South Warwickshire NHS Foundation Trust's recent record: in September 2025, about half of patients began their cancer treatment within 62 days of an urgent referral for suspected cancer (49.2%). This is below both the 85% standard and England's figure of 68% that month. The trust's performance has also moved down over the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RJE": {
       "org_name": "University Hospitals of North Midlands NHS Trust",
@@ -445,8 +445,8 @@
     },
     "RJL": {
       "org_name": "Northern Lincolnshire and Goole NHS Foundation Trust",
-      "general": "In September 2025, about six in ten patients at Northern Lincolnshire and Goole NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer (58.9%). This is below the 85% standard that the NHS aims for. The trust is also performing below England's 68% that month, though the trust's performance has improved from 52% a year earlier in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — everyone's situation is different. What I can tell you is what happened here: in September 2025, about six in ten people (58.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means four in ten waited longer than that.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about six in ten people (58.9%) at Northern Lincolnshire and Goole NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for. The trust's performance was also below England's figure of 68% that month, though it has improved from 52% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait for cancer treatment — it depends on your individual circumstances. What I can tell you is that at Northern Lincolnshire and Goole NHS Foundation Trust, about six in ten people (58.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's below the 85% target the NHS aims for, and also below England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RJN": {
       "org_name": "East Cheshire NHS Trust",
@@ -475,8 +475,8 @@
     },
     "RKB": {
       "org_name": "University Hospitals Coventry and Warwickshire NHS Trust",
-      "general": "At University Hospitals Coventry and Warwickshire NHS Trust, about two-thirds of patients began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 (67.7%). This is below the 85% standard the NHS aims for, though it is in line with England's 68% that month. The trust's performance has improved from 62.9% a year ago and is now at its highest point in the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your situation. But I can tell you how this trust has been doing. At University Hospitals Coventry and Warwickshire NHS Trust, about two in three people (67.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's in line with the England-wide figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "University Hospitals Coventry and Warwickshire NHS Trust is treating about two-thirds of its cancer patients within 62 days of an urgent referral for suspected cancer — that's 67.7% in September 2025. This is below the 85% standard the NHS aims for, though it is in line with England's performance of 68% that month. The trust's performance has improved and is now at its highest point over the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at University Hospitals Coventry and Warwickshire NHS Trust, about two in three patients (67.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. This is in line with England's 68% that month, though below the 85% standard.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RKE": {
       "org_name": "Whittington Health NHS Trust",
@@ -500,18 +500,18 @@
     },
     "RLT": {
       "org_name": "George Eliot Hospital NHS Trust",
-      "general": "In September 2025, about six in ten patients at George Eliot Hospital NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer (59.4%). This is below the 85% standard that the NHS aims for, and also below England's 68% that month. The trust's performance has improved from 56% a year earlier, in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. But here's what George Eliot Hospital NHS Trust's recent record shows: about six in ten people (59.4%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's below both the 85% target the NHS aims for and England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about six in ten patients at George Eliot Hospital NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 59.4%. This is below the 85% standard that the NHS aims for, and also below England's 68% that month. The trust's performance has improved since October 2023, when it was 56%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is how George Eliot Hospital NHS Trust has been performing: in September 2025, about six in ten patients (59.4%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means four in ten patients waited longer than 62 days.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RM1": {
       "org_name": "Norfolk and Norwich University Hospitals NHS Foundation Trust",
-      "general": "Norfolk and Norwich University Hospitals is treating about six in ten cancer patients within 62 days of an urgent referral for suspected cancer (56.5% in September 2025). This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has improved from 38.4% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is Norfolk and Norwich University Hospitals' recent record: in September 2025, about six in ten people (56.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's below the 85% standard and also below England's 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about six in ten patients (56.5%) at Norfolk and Norwich University Hospitals began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, and also below England's 68% that month. The trust's performance has improved from 38.4% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long any individual will wait for cancer treatment — it depends on many things about your own situation that these figures cannot capture.\n\nWhat we can tell you is how Norfolk and Norwich University Hospitals has been performing. In September 2025, about six in ten patients (56.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means around 199 out of 352 patients were treated within that timeframe. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RM3": {
       "org_name": "Northern Care Alliance NHS Ft",
-      "general": "Northern Care Alliance is treating about four in five patients within 62 days of an urgent referral for suspected cancer (78.9% in September 2025). This is above the England-wide figure of 68% that month, but below the 85% standard. The trust has improved considerably — it was at 54.7% a year ago, and September 2025 marks its best performance in the last two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait – every person's situation is different. What I can tell you is how Northern Care Alliance NHS Foundation Trust has been performing recently. In September 2025, about four in five people (78.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This was above the England-wide figure of 68% that month, though below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Northern Care Alliance NHS Foundation Trust treated about four in five patients within 62 days of an urgent referral for suspected cancer in September 2025 — that's 78.9% of people. This is below the 85% standard that the NHS aims for, but it is above England's 68% that month. The trust's performance has improved considerably: it was 54.7% in October 2023, and September 2025 is the highest it has been in the past 24 months.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances and how busy the team is when you're referred. But here's what the trust's recent record shows: about four in five people (78.9%) started their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's above the England-wide figure of 68% that month, though it is below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RMC": {
       "org_name": "Bolton NHS Foundation Trust",
@@ -565,8 +565,8 @@
     },
     "RNZ": {
       "org_name": "Salisbury NHS Foundation Trust",
-      "general": "In September 2025, about six in ten patients at Salisbury NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 55.7%. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has improved since October 2023, when it was 50.9%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — that depends on many things about your individual case. But I can tell you how Salisbury NHS Foundation Trust has been performing.\n\nIn September 2025, about six in ten patients (55.7%) started their cancer treatment within 62 days of an urgent referral for suspected cancer. This was below the 85% standard the NHS aims for, and also below England's figure of 68% that month. The trust's performance has improved from 50.9% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "Salisbury NHS Foundation Trust treated about six in ten patients within 62 days of an urgent referral for suspected cancer in September 2025 — that's 55.7% of people. This is below the 85% target that the NHS aims for, and also below England's 68% that month. The trust's performance has improved since October 2023, when it was 50.9%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — that depends on your individual circumstances.\n\nWhat we can tell you is how Salisbury NHS Foundation Trust performed overall in September 2025: about six in ten patients (55.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This was below the 85% standard and also below England's 68% that month, but it was an improvement from 50.9% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RP4": {
       "org_name": "Great Ormond Street Hospital for Children NHS Foundation Trust",
@@ -575,8 +575,8 @@
     },
     "RP5": {
       "org_name": "Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust",
-      "general": "In September 2025, about two in three people (66.7%) at Doncaster and Bassetlaw Teaching Hospitals began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard the NHS aims for, and slightly below England's figure of 68% that month. The trust's performance has fallen from 80.5% a year earlier, in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case that no statistics can capture.\n\nWhat we do know is that at Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust, about two in three people (66.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's slightly below the figure for England as a whole, which was 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about two in three people (66.7%) at Doncaster and Bassetlaw Teaching Hospitals began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard the NHS aims for, and slightly below England's 68% that month. The trust's performance in this area has fallen from 80.5% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you'll wait personally — it depends on many things about your individual case that we can't know in advance.\n\nWhat we can tell you is Doncaster and Bassetlaw Teaching Hospitals' recent record. In September 2025, about two in three patients (66.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's slightly below the England-wide figure of 68% that month, and below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RP6": {
       "org_name": "Moorfields Eye Hospital NHS Foundation Trust",
@@ -590,8 +590,8 @@
     },
     "RPC": {
       "org_name": "Queen Victoria Hospital NHS Foundation Trust",
-      "general": "In September 2025, about four in five people at Queen Victoria Hospital NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer (81.8%). This is below the 85% standard, though it is above England's 68% that month. The trust's performance has improved from 71.8% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What we do know is how Queen Victoria Hospital has been doing overall. In September 2025, about four in five people (81.8%) started their cancer treatment within 62 days of an urgent referral for suspected cancer. That's above the England-wide figure of 68% that month, though it is slightly below the 85% target.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about four in five patients at Queen Victoria Hospital began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 81.8%. This is below the 85% standard, though it's above the England-wide figure of 68% for that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual situation. But here's how Queen Victoria Hospital NHS Foundation Trust has been performing: about four in five people (81.8%) started their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That's above the England-wide figure of 68% for that month, though it's slightly below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RPY": {
       "org_name": "The Royal Marsden NHS Foundation Trust",
@@ -670,8 +670,8 @@
     },
     "RTE": {
       "org_name": "Gloucestershire Hospitals NHS Foundation Trust",
-      "general": "About three-quarters of patients at Gloucestershire Hospitals began treatment within 62 days of an urgent referral for suspected cancer in September 2025 (75.9%). This is below the 85% standard that the NHS aims for, but it is above England's figure of 68% that month. The trust's performance has improved from 59.7% a year ago and is now at its highest point over the last two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — that depends on your individual case and how the NHS team manages your care.\n\nWhat we can tell you is how Gloucestershire Hospitals NHS Foundation Trust has been doing overall. In September 2025, about three-quarters of patients (75.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's above the England-wide figure of 68% that month, though below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "About three-quarters of patients at Gloucestershire Hospitals NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 — that's 75.9% of the 436 patients treated that month. The trust is performing below the 85% standard that the NHS aims for, but it is above England's 68% figure for the same month. This is the trust's best performance in the past 24 months, up from 59.7% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What we can tell you is how Gloucestershire Hospitals NHS Foundation Trust has been performing: about three-quarters of patients (75.9%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RTF": {
       "org_name": "Northumbria Healthcare NHS Foundation Trust",
@@ -700,8 +700,8 @@
     },
     "RTR": {
       "org_name": "South Tees Hospitals NHS Foundation Trust",
-      "general": "South Tees Hospitals NHS Foundation Trust treated about two-thirds of its cancer patients within 62 days of an urgent referral for suspected cancer in September 2025 — that's 65.2% of people. This is below the 85% standard that the NHS aims for, though slightly below England's 68% that month. The trust's performance has improved from 59.8% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your own situation that no statistics can capture.\n\nWhat we do know is how South Tees Hospitals NHS Foundation Trust has been performing. In September 2025, about two-thirds of patients (65.2%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means roughly one in three waited longer than that. The trust is slightly below the England-wide figure of 68% for that month, and below the 85% standard the NHS aims for.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about two in three people (65.2%) at South Tees Hospitals NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard the NHS aims for, and slightly below England's 68% that month. The trust's performance has improved since October 2023, when it was 59.8%.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many details about your individual case. What I can tell you is how South Tees Hospitals NHS Foundation Trust has been performing.\n\nIn September 2025, about two in three people (65.2%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means roughly one in three waited longer than 62 days. The trust's performance was slightly below the England-wide figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RTX": {
       "org_name": "University Hospitals of Morecambe Bay NHS Foundation Trust",
@@ -725,8 +725,8 @@
     },
     "RVR": {
       "org_name": "Epsom and St Helier University Hospitals NHS Trust",
-      "general": "In September 2025, about four in five people at Epsom and St Helier University Hospitals NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 81.5%. This is below the 85% target, though it is above England's figure of 68% that month. The trust's performance has fallen from 85.2% a year earlier, in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your own situation. But I can tell you how Epsom and St Helier University Hospitals NHS Trust has been getting on. In September 2025, about four in five patients began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 81.5%. This was above the England-wide figure of 68% that month, though it fell slightly short of the 85% standard.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about four in five people at Epsom and St Helier University Hospitals NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 81.5%. This is below the 85% standard, though it is above England's 68% that month. The trust's performance has fallen from 85.2% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many things unique to your situation. What I can tell you is what happened at Epsom and St Helier University Hospitals NHS Trust recently. In September 2025, about four in five people (81.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's above the England-wide figure of 68% that month, though it fell a little short of the 85% standard.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RVV": {
       "org_name": "East Kent Hospitals University NHS Foundation Trust",
@@ -750,13 +750,13 @@
     },
     "RWD": {
       "org_name": "United Lincolnshire Teaching Hospitals NHS Trust",
-      "general": "In September 2025, about six in ten patients at United Lincolnshire Teaching Hospitals began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 61.5%. This is below the 85% standard that the NHS aims for, and also below England's 68% that month. The trust has improved from 52% a year ago, though.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at United Lincolnshire Teaching Hospitals NHS Trust in September 2025, about six in ten patients (61.5%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means four in ten waited longer than that.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about six in ten patients (61.5%) at United Lincolnshire Teaching Hospitals NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has improved from 52% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — that depends on your individual circumstances. What I can tell you is that at United Lincolnshire Teaching Hospitals NHS Trust, about six in ten patients began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 (61.5%). This means four in ten waited longer than 62 days. The trust's performance is below both the 85% target and England's figure of 68% that same month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RWE": {
       "org_name": "University Hospitals of Leicester NHS Trust",
-      "general": "University Hospitals of Leicester is performing below the 62-day cancer standard. In September 2025, about half of patients (48.4%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has fallen from 53.9% a year before.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at University Hospitals of Leicester NHS Trust, about half of patients began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 (48.4%). This is below both the 85% standard and England's figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "University Hospitals of Leicester NHS Trust is currently performing below the 62-day cancer standard. In September 2025, about half of patients (48.4%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has declined from 53.9% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you as an individual will wait — that depends on many things about your particular situation. What I can tell you is how University Hospitals of Leicester performed overall: in September 2025, about half of patients (48.4%) started their cancer treatment within 62 days of an urgent referral for suspected cancer. That's below both the 85% standard the NHS aims for and below England's figure of 68% that same month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RWF": {
       "org_name": "Maidstone and Tunbridge Wells NHS Trust",
@@ -845,8 +845,8 @@
     },
     "RXL": {
       "org_name": "Blackpool Teaching Hospitals NHS Foundation Trust",
-      "general": "At Blackpool Teaching Hospitals NHS Foundation Trust in September 2025, about half of patients (52%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. This falls short of the 85% standard that the NHS aims for, and is also below England's figure of 68% that month. The trust's performance in this area has been declining — it was 66% a year ago and is now at its lowest point over the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case. What I can tell you is how Blackpool Teaching Hospitals NHS Foundation Trust has been performing.\n\nIn September 2025, about half of patients (52%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That's below both the 85% standard the NHS aims for and below England's figure of 68% that month. The trust's performance on this measure has also been getting worse over the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about half of patients at Blackpool Teaching Hospitals NHS Foundation Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer — that's 52%. This is below the 85% standard that the NHS aims for, and also below England's figure of 68% that month. The trust's performance has declined over the past two years and is now at its lowest point in that time.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — that depends on many things about your own situation. But I can tell you how Blackpool Teaching Hospitals has been performing.\n\nIn September 2025, about half of patients (52%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That is below the 85% standard the NHS aims for, and also below England's figure of 68% that month. The trust's waiting times have been getting longer — this is the lowest performance recorded in the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RXN": {
       "org_name": "Lancashire Teaching Hospitals NHS Foundation Trust",
@@ -860,8 +860,8 @@
     },
     "RXQ": {
       "org_name": "Buckinghamshire Healthcare NHS Trust",
-      "general": "About three-quarters of people at Buckinghamshire Healthcare NHS Trust began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025 — that's 72.7%. This is below the 85% standard the NHS aims for, though it is slightly above England's 68% that month. The trust has improved from 64.5% a year ago and is now performing at its highest level in the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at Buckinghamshire Healthcare NHS Trust in September 2025, about three-quarters of patients (72.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer. That means roughly three in four people were seen and treated within that timeframe.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about three-quarters of patients (72.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer at Buckinghamshire Healthcare NHS Trust. This is below the 85% standard that the NHS aims for, though it is slightly above England's 68% that month. The trust's performance has improved since October 2023, when it was 64.5%, and September 2025 marks its best result in the past two years.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on your individual circumstances. What I can tell you is that at Buckinghamshire Healthcare NHS Trust, about three-quarters of patients (72.7%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. That means the trust's recent record shows most people do start treatment within that timeframe, though some do take longer.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RXR": {
       "org_name": "East Lancashire Hospitals NHS Trust",
@@ -875,8 +875,8 @@
     },
     "RXW": {
       "org_name": "The Shrewsbury and Telford Hospital NHS Trust",
-      "general": "In September 2025, about two in three people (65.2%) at Shrewsbury and Telford Hospital NHS Trust started their cancer treatment within 62 days of an urgent referral for suspected cancer. This is below the 85% standard that the NHS aims for, and slightly below England's 68% that month. The trust's performance has improved from 56.4% a year earlier.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
-      "personal": "No one can predict how long you personally will wait — it depends on your individual situation. What I can tell you is that at Shrewsbury and Telford Hospital NHS Trust, about two in three people (65.2%) began their cancer treatment within 62 days of an urgent referral for suspected cancer in September 2025. This is slightly below the England-wide figure of 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
+      "general": "In September 2025, about two-thirds of patients at Shrewsbury and Telford Hospital NHS Trust started treatment within 62 days of an urgent referral for suspected cancer (65.2%). This is below the 85% standard that the NHS aims for. The trust's performance was slightly below England's 68% that month, though it has improved from 56.4% in October 2023.\n\nSource: NHS England Cancer Waiting Times, data to September 2025.",
+      "personal": "No one can predict how long you personally will wait — it depends on many things about your individual case. But here's how Shrewsbury and Telford Hospital has been performing: about two in three patients began their cancer treatment within 62 days of an urgent referral for suspected cancer (65.2%) in September 2025. That's below the 85% standard the NHS aims for, though it was slightly better than England's 68% that month.\n\nSource: NHS England Cancer Waiting Times, data to September 2025."
     },
     "RXX": {
       "org_name": "Surrey and Borders Partnership NHS Foundation Trust",

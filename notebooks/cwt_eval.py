@@ -17,6 +17,7 @@ Checks per answer:
   5. ADVICE     — no advice or signposting ("contact the trust", "your clinical team", ...).
   6. MEASURE    — no "GP" narrowing and no converting 62 days into months.
   7. ENGLAND    — the England figure is never called an "average".
+  8. TIME        — no relative-age phrasing ("a year earlier"); the findings NAME the month.
 
 Pandas-only; no API key needed. Run:  python cwt_eval.py
 
@@ -45,6 +46,19 @@ ADVICE = [
     "contact the trust", "speak to your", "your clinical team", "your doctor", "your gp",
     "you may want to", "you should", "ask your",
 ]
+
+# Relative-age phrasing the answers must never use. The findings always NAME the month
+# (e.g. "up from 56.4% in October 2023"), so any "a year earlier" / "two years ago" is the model
+# working out — and possibly mis-stating — a relative age. This is the check that would have
+# caught "improved from 56.4% a year earlier" when the anchor month is October 2023 (~two years).
+# It deliberately does NOT match a plain span like "in the 24 months" (no earlier/ago after it).
+_REL_TIME = re.compile(
+    r"\b(?:a|an|one|two|three|four|\d+)\s+(?:year|years|month|months|decade|decades)\s+"
+    r"(?:earlier|ago|before|prior)\b"
+    r"|\blast\s+year\b|\bthe\s+(?:previous|prior)\s+year\b|\bthe\s+year\s+before\b"
+    r"|\byear[-\s]on[-\s]year\b",
+    re.IGNORECASE,
+)
 
 # The fraction phrases the findings layer can emit, with the rate each one anchors.
 _FRACTION_RATE = {phrase: rate for rate, phrase in _FRACTIONS}
@@ -131,6 +145,12 @@ def check_answer(text: str, kind: str, code: str, latest_rate: float, month_labe
     # 7. England is a national aggregate, not an average.
     if re.search(r"england.{0,10}average|average.{0,15}england", low):
         problems.append(f"{kind}: calls the England figure an 'average'")
+
+    # 8. Relative-age phrasing. The findings always NAME the month; a phrase like "a year
+    #    earlier" is the model computing a relative age, which can contradict the real gap.
+    m = _REL_TIME.search(low)
+    if m:
+        problems.append(f"{kind}: uses relative time '{m.group(0)}' — findings name the month")
 
     return problems
 
