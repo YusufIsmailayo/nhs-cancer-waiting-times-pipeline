@@ -7,7 +7,7 @@ for the whole month: I generate them all here, save them to a file, and the publ
 looks them up. The deployed app makes no API calls and holds no key.
 
 I run this whenever NHS England publishes new data, after re-running the pipeline to refresh
-gold_62d_trust_month.parquet. Cost: ~173 trusts x 2 short Haiku answers = a few pennies, once a
+gold_62d_trust_month.parquet. Cost: ~181 trusts x 2 short Haiku answers = a few pennies, once a
 month.
 
 Needs ANTHROPIC_API_KEY in the environment (cwt_narrate reads it).

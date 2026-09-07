@@ -1,7 +1,7 @@
 """
 cwt_eval.py — the quality gate my answers pass before anything goes public.
 
-The model writes 346 answers a month (173 trusts x 2). No human proofreads that reliably, and my
+The model writes 362 answers a month (181 trusts x 2). No human proofreads that reliably, and my
 own batch proved it: a handful of answers contradicted themselves ("two in three people (100%)"),
 used banned framing ("the good news is"), or gave advice ("contact the trust directly"). This
 script checks every answer, every month, in seconds — figures against my Gold table, wording
