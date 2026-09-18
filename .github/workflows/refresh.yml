@@ -1,0 +1,47 @@
+name: Refresh Cancer Waiting Times Answers
+
+# I only need to run when there's new Gold data to work from: I regenerate gold_62d_trust_month.parquet
+# locally (running notebooks 01-06 needs data/raw/, which is gitignored — too large to commit — so that
+# step stays on my own machine) and push it here. That push is what should trigger the batch/eval/deploy
+# loop. A manual button is there too, for re-runs.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/gold/gold_62d_trust_month.parquet'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # pandas/pyarrow/anthropic are what cwt_batch.py and cwt_eval.py actually need at runtime.
+      # matplotlib is only here because cwt_utils.py imports it unconditionally at module load,
+      # even though the batch/eval path never plots anything.
+      - name: Install dependencies
+        run: pip install pandas pyarrow anthropic matplotlib
+
+      - name: Run batch -> eval -> regenerate -> eval
+        working-directory: notebooks
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python ci_refresh.py
+
+      # Only data/gold/answers_62d.json can change here — ci_refresh.py never touches the
+      # parquet, so this commit can't re-trigger the workflow on itself.
+      - name: Commit refreshed answers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/gold/answers_62d.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Automated refresh: regenerate answers_62d.json"
+          git push
